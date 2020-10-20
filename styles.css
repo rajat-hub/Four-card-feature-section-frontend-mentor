@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    color: hsl(234, 12%, 34%);
+}
+
+h1, h2{
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+h3{
+    font-size: 1.3em;
+    margin-bottom: .3em;
+}
+
+p{
+    color: hsl(229, 6%, 66%);
+    font-size: .95em;
+    line-height: 1.8;
+}
+.container{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5em auto;
+    width: 70%;
+    /* margin:10% 20%; */
+    background-color: hsl(0, 0%, 98%);
+}
+
+/* .container h2{
+    color: hsl(229, 6%, 66%)
+} */
+.upper-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:5% 30%;
+}
+
+.upper-container h2{
+    font-weight: 600;
+    margin-bottom: .6em;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    
+    overflow: hidden;
+    height:auto;
+    margin:1em;
+   
+}
+
+.measure{
+    padding: 2em 1.8em;
+    min-height:180px;
+    position: relative;
+}
+.first-container{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    background-color: white;
+    max-width: 310px;
+    
+    box-shadow: 0px 15px 20px 0px hsl(229, 21%, 86%);
+    border-radius: 7px;
+}
+
+.first-middle-container{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    background-color: white;
+    margin-bottom: 8%;
+    max-width: 310px;
+    box-shadow: 0px 15px 20px 0px hsl(229, 21%, 86%);
+    border-radius: 7px;
+}
+
+.second-middle-container{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    background-color: white;
+    margin-bottom: 8%;
+    max-width: 310px;
+    box-shadow: 0px 15px 20px 0px hsl(229, 21%, 86%);
+    border-radius: 7px;
+}
+
+.last-container{
+    border-top: 5px solid hsl(212, 86%, 64%) ;
+    background-color: white;
+    max-width: 310px;
+    box-shadow: 0px 15px 20px 0px hsl(229, 21%, 86%);
+    border-radius: 7px;
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2.5em;
+    margin-bottom: 2%;
+}
+img{
+    width:32px;
+    height:32px;
+}
+
+@media only screen and (min-width:768px){
+    h1, h2{
+        font-size: 2.4em;
+    }
+
+    .upper-container{
+        max-width: 550px;
+    }
+
+    .upper-container p{
+        font-size: 1em;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
